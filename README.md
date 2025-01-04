@@ -27,14 +27,14 @@ Ce projet est une application web interactive permettant de gérer les bordereau
 
  ***Structure du projet***
 
- HTML :
-  Contient la structure de l'interface utilisateur et les formulaires d'entrée.
+  HTML :
+   Contient la structure de l'interface utilisateur et les formulaires d'entrée.
 
- CSS :
-  Fournit le style pour une interface moderne et attrayante.
+  CSS :
+   Fournit le style pour une interface moderne et attrayante.
 
- JavaScript :
-  Gère les interactions utilisateur, les calculs, et la mise à jour dynamique des tableaux et des résumés.
+  JavaScript :
+   Gère les interactions utilisateur, les calculs, et la mise à jour dynamique des tableaux et des résumés.
 
 ***Comment utiliser l'application***
 

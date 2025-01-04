@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordereau d'Escompte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>BANQUE BIAT-TUNIS</h1>
+        <h3>Bienvenue ! </h3>
+        <p>Votre gestion des bordereaux d'escompte est entre de bonnes mains. Explorez nos outils pour des transactions rapides et sûres<p>
+    </div>
+
+    <div class="information">
+        <h2>Informations sur les taux et commissions</h2>
+        <p><strong>Le taux d'escompte est :</strong> 8%</p>
+        <ul>
+            <li>Commission pour les effets sur place domiciliés : 0.500 DT</li>
+            <li>Commission sur les effets sur place non domiciliés : 1.200 DT</li>
+            <li>Commission sur les effets déplacés domiciliés : 2 DT</li>
+            <li>Commission sur les effets déplacés non domiciliés : 3 DT</li>
+            <li>Commission proportionnelle à la durée : 0.7%</li>
+            <li>Commission indépendante de la durée : 0.3%</li>
+        </ul>
+    </div>
+
+    <div class="form-container">
+        <label for="date-negociation">Date de négociation :</label>
+        <input type="date" id="date-negociation" class="input-field" />
+        <label for="nombre-effets">Nombre d'effets :</label>
+        <input type="number" id="nombre-effets" class="input-field" min="1" />
+        <button class="btn" onclick="generateTable()">Générer</button>
+    </div>
+
+    <table id="bordereau-table" class="styled-table" style="display: none;">
+        <thead>
+            <tr>
+                <th>Num d'effet</th>
+                <th>Banque domiciliatrice</th>
+                <th>Lieu de paiement</th>
+                <th>Valeur nominale</th>
+                <th>Date échéance</th>
+                <th>Jours agios</th>
+                <th>Escompte</th>
+                <th>Commission fixe</th>
+                <th>TVA</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div class="summary" id="summary" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

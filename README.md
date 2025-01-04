@@ -1,4 +1,4 @@
-Gestion des Bordereaux d'Escompte
+                               Gestion des Bordereaux d'Escompte
 
 Ce projet est une application web interactive permettant de gérer les bordereaux d'escompte pour les clients de la Banque BIAT-Tunis. L'interface est conviviale et permet d'introduire des effets à escompter, d'afficher un tableau récapitulatif des calculs, et de présenter un bordereau complet des opérations financières.
 
